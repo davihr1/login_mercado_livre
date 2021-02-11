@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ededed;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: .800rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    background: #fff059;
+    padding-bottom: 10rem;
+}
+
+header .items {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 25rem;
+    width: 28.200rem;
+    flex-direction: column;
+    margin-top: -7rem;
+    border-radius: 0.500rem;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 15%);
+}
+
+.form .scafolld {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.scafolld h2 {
+    font-size: 1.700rem;
+    font-weight: 400;
+    width: 10cm;
+    margin-top: 15mm;
+}
+
+.scafolld input {
+    margin-top: 15px;
+    width: 20rem;
+    height: 3rem;
+    border-bottom: solid gray 0.500px;
+    padding-top: 24px;
+    font-size: 20px;
+    outline: none;
+}
+
+.scafolld .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 14mm;
+}
+
+.buttons button {
+    background: #3483fa;
+    color: white;
+    font-size: 1.100rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 7cm;
+    height: calc(30rem / 10);
+    border-radius: .500rem;
+    transition: 1s;
+    outline: none;
+}
+
+.buttons button:hover {
+    background: #1f4e96;
+}
+
+.buttons button:focus {
+    box-shadow: 0 0 0 0.1875em rgb(30, 109, 255, 40%);
+}
+
+.buttons a {
+    display: flex;
+    margin-top:  5ex;
+    color: #3483fa;
+    background: transparent;
+    border-radius: .300rem;
+    transition: 700ms;
+    align-items: center;
+    justify-content: center;
+    width: 7cm;
+    font-size: 1rem;
+    height: calc(30rem / 10);
+}
+
+.buttons a:hover {
+    background-color: rgba(65,137,230,.2);
+    color: #3483fa;
+}
