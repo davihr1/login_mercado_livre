@@ -1,7 +1,7 @@
 ## design page for study 
 ## Projeto: Techions+ / mercadolivre
 
-![](./.github/tela_login_mercadolivre.png)
+![](./.github/tela_login_mercadolivre.jpeg)
 
 ===
 
@@ -13,7 +13,7 @@
  -Cores(botão, header)
  -Icone(header, aba)
  -Link(Criar conta:pagina inicial, contato:pagina contato do mercado livre)
- 
+
 ### Criador: [Davi_HR]
 ===
 ---
